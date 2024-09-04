@@ -16,6 +16,7 @@ Creates a new commit, known as a "merge commit," which represents the combinatio
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Provides a clearer development history with a detailed graph showing where branches were merged, preserving the history of changes in the merged branches. | Commit history can become noisy due to numerous merge commits from small branches. |
 | Useful for team collaboration by maintaining a structured record of changes.                                                                               | A complex commit graph may make it harder to understand the project context.       |
+
 **Standard merging** technique is **usually chosen for collaboration**. It's main advantage is that It keeps a thorough history of all modifications, which is helpful to understand how a project has changed over time. Such history provides a simpler conditions to resolve conflicts and guarantees that everyone who works on project understands how project changed over the time.
 
 ## Squash and Merge
