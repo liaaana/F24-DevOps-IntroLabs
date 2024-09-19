@@ -34,3 +34,5 @@ Feature branch's commits are reapplied on top of the base branch prior to mergin
 | -------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | Removing merge commits helps to make history cleaner with no noise from merge commits. | Navigation problems due to the absence of merging commits.      |
 | Understanding the development process is easier because of linear history.             | Harder to roll back changes if the feature is no longer needed. |
+
+![Repo settings](image.png)
