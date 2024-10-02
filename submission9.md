@@ -94,5 +94,5 @@ Last line details:
 - Used Memory: 680 MiB
 - Free Memory: 13 GiB
 - Buffers/Cache Memory: 23 MiB
-- Kernel Memory:** 1.1 GiB
+- Kernel Memory: 1.1 GiB
 - Available Memory for Applications: 14 GiB
