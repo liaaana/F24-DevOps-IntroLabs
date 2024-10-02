@@ -15,6 +15,14 @@ jobs:
         uses: actions/checkout@v4
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: Gather System Information
+        run: |
+          echo "Gathering system information..."
+          echo "Runner: ${{ runner.name }}"
+          echo "Architecture: $(uname -m)"
+          echo "Operating system: ${{ runner.os }}"
+          echo "CPU: $(lscpu | grep 'Model name')"
+          echo "Total memory: $(free -h | grep 'Mem:')"
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
